@@ -1,0 +1,21 @@
+{
+  "name": "sweikenb/symfony-helper",
+  "description": "Symfony Helper Library",
+  "type": "library",
+  "require": {
+    "php": ">=7.4",
+    "symfony/console": "~5.1"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Simon Schröer",
+      "email": "code@schroeer.me"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sweikenb\\Symfony\\Helper\\": "./"
+    }
+  }
+}
